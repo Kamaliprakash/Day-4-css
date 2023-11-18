@@ -1,0 +1,52 @@
+Position
+Media Queries
+Fonts
+Icons
+
+
+                  >>>>>>>>>Position:->>>>>>>>>>>>>>
+1.static
+=>(No change in element)
+
+2.Relative
+=>(position: relative;
+    top: 10px;
+    /* left: 10px; */
+    /* (OR) */
+    /* bottom: 20px; */
+    /* right: 10px; */)
+
+3.Absolute
+=>(Based on HtML)
+   /to control into container>>>parent:-*position:relative;*
+   /to see 2rd box>> .tem1{position:Absolute;}
+   /.item:hower{opacity:10%};
+
+4.Fixed
+=>(Based on HTML)
+/it fixed on one position.
+
+5.Sticky
+=>/it will scrolled based on px.
+
+
+                 >>>>>>>>>Media Quries>>>>>>>>>>>
+
+=> Breakpoints:-
+Mobile devices: 320px - 480px
+Ipads and tablets: 481px - 768px
+laptop: 768px - 1024px
+Large screens: 1025px -  1200px
+
+=> 3 types of media Queries:
+ > screens : to display
+ > print: to print the page
+ > speech: screen readers
+ 
+ //syntax: 
+ @media screen/print/speech/all and (selectors){
+
+ }
+ selectors: your resolution(2 types => MAX-width and MIN-width)
+
+

@@ -1,0 +1,26 @@
+.box{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 20px auto;
+   
+}
+
+.item1,.item2{
+    width: 100px ;
+    height: 100px;
+
+
+}
+
+.item1{
+    background-color: lightpink;
+
+}
+
+
+.item2{
+    background-color: lightblue;
+    
+}
+

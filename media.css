@@ -1,0 +1,21 @@
+ 
+ body{
+    background-color: lightslategray;
+    color: lightgreen;
+ }
+ h1{
+    color: blue;
+ }
+ @media (max-width:769px){
+   h1{
+    color: rgb(233, 122, 233);
+    font-weight: bolder;
+    font-size: small;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+   }
+ }
+
+
+
